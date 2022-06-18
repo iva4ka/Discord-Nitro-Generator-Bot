@@ -5,4 +5,4 @@ A discord bot made in python that generates a random password!
 
 
 ### Here is an example of how it works.
-<img src='https://i.ibb.co/hRtzQGc/image-3.png' style='border-radius: 0.4rem; width: 30rem' />
+<img src='https://i.ibb.co/N116Sxs/image-4.png' style='border-radius: 0.4rem; width: 30rem' />
