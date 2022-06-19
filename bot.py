@@ -17,4 +17,13 @@ async def nitrogen(ctx):
   embed.set_footer(text="Source Code: https://github.com/Ocryol1337/Discord-Nitro-Generator-Bot")
   await ctx.send(embed=embed)
 
+## This "checks" the discord nitro because with the other one you cannot see if the nitro is valid or not!
+
+@client.command()
+async def nitrogen(ctx):
+  code = "https://discord.gift/" + ('').join(
+	random.choices(string.ascii_letters + string.digits, k=16))
+  await ctx.send(f"{code}")
+
+
 client.run("TOKEN HERE")
